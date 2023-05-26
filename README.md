@@ -1,8 +1,8 @@
-# Uniswap Routing API
+# Piteas Routing API
 
-This repository contains routing API for the Uniswap V3 protocol.
+This repository contains routing API for the Piteas protocol.
 
-It deploys an API to AWS that uses @uniswap/smart-order-router to search for the most efficient way to swap token A for token B.
+It deploys an API to AWS to search for the most efficient way to swap token A for token B.
 
 ## Development
 
@@ -23,13 +23,7 @@ The best way to develop and test the API is to deploy your own instance to AWS.
    # RINKEBY = 4
    # GÖRLI = 5
    # KOVAN = 42
-   # OPTIMISM = 10
-   # OPTIMISTIC_KOVAN = 69
-   # ARBITRUM_ONE = 42161
-   # ARBITRUM_RINKEBY = 421611
-   # POLYGON = 137
-   # POLYGON_MUMBAI = 80001
-   # BSC = 56
+   # PULSECHAIN = 369
    TENDERLY_USER = '' # For enabling Tenderly simulations
    TENDERLY_PROJECT = '' # For enabling Tenderly simulations
    TENDERLY_ACCESS_KEY = '' # For enabling Tenderly simulations
